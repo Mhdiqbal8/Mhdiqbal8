@@ -1,0 +1,105 @@
+*{
+	text-decoration: none !important;
+	margin: 0;
+	padding: 0;
+
+}
+/****************** FRAMWORK *****************/
+/****************color*/
+.bg-blue-dark{
+ background: #003679;
+}
+.bg-blue-darken{
+background: #021C3C;
+}
+.text-white{
+	color: #fff !important;
+}
+/****************color*/
+/****************line*/
+.line-bottom{
+	/*width: 50px;
+	height: 2px;
+	background: #003678;*/
+}
+/****************line*/
+/****************** FRAMWORK *****************/
+.fs-serif{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.fs-pro-serif{
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 400;
+}
+ body{
+height: 2000px;
+}
+.navbar{
+background: #003679;
+}
+
+header{
+background: #021C3C;
+height: 40px;
+width: 100%;
+display: flex;
+align-items: center;
+}
+.fs-10{
+font-size: 12px;
+}
+.text-justify{
+text-align: justify;
+}
+
+.line-section{
+	width: 150px;
+	height: 2px;
+	margin-left: -50px;
+	background: yellow;
+}
+.line{
+	width: 20px;
+	height: 5px;
+	background: yellow;
+}
+span.carousel-control-next-icon,span.carousel-control-prev-icon{
+	background-color: blue !important;
+	/*padding: 20px;*/
+	color: white !important;
+	border-radius: 50%;
+}
+.carousel-indicators [data-bs-target]{
+	width: 20px !important;
+	height: 0px !important;
+	border-radius: 50% !important;
+	background: blue ;
+	/*margin: auto;*/
+}
+.whatsapp{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,.6);
+	border-radius: 50%;
+	background: none;
+}
+.whatsapp:hover{
+	background: blue;
+	transition: .2s ease-in;
+}
+/***************service*****************/
+
+/***************service*****************/
+
+@media(max-width: 768px){
+	.whatsapp{
+		display: none;
+	}
+	header{
+		display: none;
+	}
+	#service .row p{
+		display: none;
+	}
+}
